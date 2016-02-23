@@ -23,10 +23,10 @@ Domain Swap for YURLS
 2. Point as many domains (or subdomains) you want to the same IP (A/CNAME record)
 3. Modify your `user/config.php` file
 
-    // from:
-    define( 'YOURLS_SITE', 'http://short.url' );
-    // to:
-    define( 'YOURLS_SITE', 'http://' . $_SERVER['HTTP_HOST'] . '');
+    `// from`  
+    `define( 'YOURLS_SITE', 'http://short.url' );`  
+    `// to`  
+    `define( 'YOURLS_SITE', 'http://' . $_SERVER['HTTP_HOST'] . '');`  
 
 4. Go to config page and add all domains you want to be able to swap
 5. Done
